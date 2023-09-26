@@ -70,10 +70,10 @@ button:hover {
 
 .education-box {
     text-align: center;
-    border: 2px solid #ccc; /* Adjust border styles as desired */
+    border: 2px solid #ccc; 
     padding: 10px;
     border-radius: 10px; /* Rounded corners */
-    width: 200px; /* Adjust the width as needed */
+    width: 200px; 
 }
 
 .education-box img {
