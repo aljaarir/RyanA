@@ -1,6 +1,6 @@
 body {
   font-family: Courier;
-  background: Grey;
+  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
   color: Black;
   text-align: center;
 }
@@ -26,9 +26,10 @@ ul.right-aligned {
 
 
 .interactive-box {
-  background-color: #A9A9A9;
+  background-color: White;
   padding: 5px;
   text-align: center;
+  
 }
 
 button {
