@@ -1,7 +1,7 @@
 body {
   font-family: Courier;
-  background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
-
+  background:  linear-gradient(to bottom, hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+;
   color: Black;
   text-align: center;
 }
@@ -32,7 +32,6 @@ ul.right-aligned {
   text-align: center;
   color: Black;
 }
-
 
 button {
   padding: 10px 20px;
@@ -65,17 +64,23 @@ button:hover {
 
 .education {
     display: flex;
-    justify-content: space-around; 
+    justify-content: center; /* Center horizontally */
     align-items: center;
     margin-top: 20px;
 }
 
 .education-box {
     text-align: center;
-    border: 2px solid #ccc; 
+    border: 2px solid #ccc;
     padding: 10px;
-    border-radius: 10px; /* Rounded corners */
-    width: 200px; 
+    border-radius: 10px;
+    width: 200px;
+    margin: 0 30px; 
+    transition: transform 0.05s ease; 
+}
+
+.education-box:hover {
+    transform: scale(1.05); 
 }
 
 .education-box img {
@@ -86,4 +91,19 @@ button:hover {
 .education-box p {
     margin-top: 10px;
     font-weight: bold;
+}
+
+
+.education-box img {
+    width: 190px;
+    height: 100px;
+}
+
+.education-box p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.education-box:hover {
+    transform: scale(1.05); /* Scale up on hover */
 }
