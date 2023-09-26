@@ -1,6 +1,6 @@
 document.getElementsByTagName("h1")[0].style.fontSize = "6vw";
 
-// JavaScript for the interactive box
+// JavaScript for the interactive box 
 document.getElementById("projects-button1").addEventListener("click", function() {
   window.open("https://onecompiler.com/mysql/3znf7rbpy", "_blank");
 });
