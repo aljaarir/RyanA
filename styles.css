@@ -1,6 +1,6 @@
 body {
   font-family: Courier;
-  background: linear-gradient(bottom, #ff8b01 0%, #ffb547 100%), linear-gradient(bottom, #ff8b01 0%, #ffb547 100%); ;
+  background: linear-gradient(to bottom, hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%)) ;
   color: Black;
   text-align: center;
 }
