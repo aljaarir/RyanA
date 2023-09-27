@@ -1,12 +1,20 @@
 body {
   font-family: Courier;
-  background:  linear-gradient(to bottom, hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
-;
+  background: linear-gradient(
+    to bottom,
+    hsl(186, 76%, 16%),
+    hsl(223, 90%, 60%),
+    hsl(240, 56%, 42%)
+  );
   color: Black;
   text-align: center;
 }
 
-h1, h2, h4, h5, h6 {
+h1,
+h2,
+h4,
+h5,
+h6 {
   font-family: Times New Roman;
   text-align: center;
 }
@@ -25,22 +33,21 @@ ul.right-aligned {
   text-align: right;
 }
 
-
 .interactive-box {
   background: #1000;
   padding: 1px;
   text-align: center;
   color: Black;
-  max-width: 1000px; 
-  margin: 0 auto; 
-  border: 2px solid black; 
-  border-radius: 75px; 
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 75px;
 }
 
 button {
   padding: 10px 20px;
   margin: 10px;
-  background-color: #007BFF;
+  background-color: #007bff;
   color: white;
   border: none;
   cursor: pointer;
@@ -51,67 +58,50 @@ button:hover {
 }
 
 #skill-list {
-    text-align: left;
+  text-align: left;
 }
 
 .interactive-skills li {
-    list-style-type: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  list-style-type: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .interactive-skills li:hover {
-    background-color: purple;
-    color: white; 
+  background-color: purple;
+  color: white;
 }
 
-
 .education {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  margin-top: 20px;
 }
 
 .education-box {
-    text-align: center;
-    border: 2px solid #ccc;
-    padding: 10px;
-    border-radius: 10px;
-    width: 200px;
-    margin: 0 30px; 
-    transition: transform 0.05s ease; 
+  text-align: center;
+  border: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  margin: 0 30px;
+  transition: transform 0.05s ease;
 }
 
 .education-box:hover {
-    transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
 .education-box img {
-    width: 190px;
-    height: 100px;
+  width: 190px;
+  height: 100px;
 }
 
 .education-box p {
-    margin-top: 10px;
-    font-weight: bold;
+  margin-top: 10px;
+  font-weight: bold;
 }
-
-
-.education-box img {
-    width: 190px;
-    height: 100px;
-}
-
-.education-box p {
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-.education-box:hover {
-    transform: scale(1.05); /* Scale up on hover */
-}
-
 
 
 /* Nav Bar */
@@ -120,12 +110,11 @@ button:hover {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #0;
+  background-color:
 }
 
 .navbar li {
   float: left;
-  
 }
 
 .navbar li a {
