@@ -57,12 +57,19 @@ button:hover {
   background-color: Green;
 }
 
+/* skill list */
 #skill-list {
   text-align: left;
+  font-family: Times New Roman;
+}
+
+h3{
+  text size: 90px;
 }
 
 .interactive-skills li {
   list-style-type: none;
+  font-family: Times New Roman;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -71,6 +78,8 @@ button:hover {
   background-color: purple;
   color: white;
 }
+
+
 
 .education {
   display: flex;
