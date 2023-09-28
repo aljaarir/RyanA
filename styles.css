@@ -58,13 +58,11 @@ button:hover {
 }
 
 /* skill list */
+/* Remove the line-height property to allow the skills list to display correctly */
 #skill-list {
   text-align: left;
   font-family: Times New Roman;
-}
-
-h3{
-  text size: 90px;
+  padding-left: 20px; /* Add left padding for better spacing */
 }
 
 .interactive-skills li {
