@@ -58,15 +58,15 @@ button {
 }
 
 button:hover {
-  background-color: Green;
+  background-color: #7BBD00;
 }
 
 /* skill list */
-/* Remove the line-height property to allow the skills list to display correctly */
+
 #skill-list {
   text-align: left;
   font-family: Times New Roman;
-  padding-left: 20px; /* Add left padding for better spacing */
+  padding-left: 20px; 
 }
 
 .interactive-skills li {
