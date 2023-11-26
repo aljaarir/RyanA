@@ -23,7 +23,7 @@ p {
   text-align: center;
 }
 
-.pic {
+pic {
   width: 200px;
   height: 200px;
   object-fit: cover;
