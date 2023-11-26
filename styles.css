@@ -67,7 +67,7 @@ button:hover {
 }
 
 .interactive-skills li:hover {
-  background-color: purple;
+  background-color: #7BBD00;
   color: white;
 }
 
@@ -127,5 +127,5 @@ button:hover {
 }
 
 .navbar li a:hover {
-  background-color: blue;
+  background-color: #7BBD00;
 }
