@@ -31,6 +31,7 @@ p {
   display: block;
   border-radius: 45%;
   border: 2px solid black;
+  object-fit: contain;
 }
 
 ul.right-aligned {
