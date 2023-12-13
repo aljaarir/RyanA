@@ -10,6 +10,6 @@ document.getElementById("projects-button2").addEventListener("click", function()
 });
 
 document.getElementById("resume-button").addEventListener("click", function() {
-  window.open("https://docs.google.com/document/d/e/2PACX-1vTlEkvNrWOZN-uZifrMzWASVLgISPYgxj54ffNRoky25poBNNPpM-jrr_JQlNhaLw/pub", "_blank");
+  window.open("https://drive.google.com/file/d/1my8AxZSocSSFcxLzeAPnwVOqRpUZshem/view?usp=sharing", "_blank");
 });
 
