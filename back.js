@@ -20,7 +20,7 @@ function redirectToCode(event) {
       event.preventDefault();
 
       // Redirect to your desired HTML link
-      window.location.href = 'projects.html';
+      window.location.href = 'project.html';
     });
   });
 
