@@ -1,6 +1,6 @@
 body {
   font-family: Courier;
-  background: linear-gradient(to right, #a8c0ff, #3f2b96);
+  background: radial-gradient(circle at 69% 86%, rgba(162,155,155, 0.06) 0%, rgba(162,155,155, 0.06) 25%,rgba(172,161,161, 0.06) 25%, rgba(172,161,161, 0.06) 50%,rgba(162,155,155, 0.06) 50%, rgba(162,155,155, 0.06) 75%,rgba(170,166,166, 0.06) 75%, rgba(170,166,166, 0.06) 100%),radial-gradient(circle at 49% 76%, rgba(129, 129, 129,0.06) 0%, rgba(129, 129, 129,0.06) 25%,rgba(172,161,161, 0.06) 25%, rgba(172,161,161, 0.06) 50%,rgba(200, 200, 200,0.06) 50%, rgba(200, 200, 200,0.06) 75%,rgba(235, 235, 235,0.06) 75%, rgba(235, 235, 235,0.06) 100%),radial-gradient(circle at 22% 64%, rgba(173, 173, 173,0.06) 0%, rgba(173, 173, 173,0.06) 25%,rgba(119, 119, 119,0.06) 25%, rgba(119, 119, 119,0.06) 50%,rgba(64, 64, 64,0.06) 50%, rgba(64, 64, 64,0.06) 75%,rgba(10, 10, 10,0.06) 75%, rgba(10, 10, 10,0.06) 100%),linear-gradient(307deg, rgb(255,255,255),rgb(255,255,255));
   text-align: center;
 }
 
@@ -15,7 +15,8 @@ h6 {
 
 h3 {
   font-family: Times New Roman;
-  text-align: Left;
+  text-align: left;
+  margin-left: 20px; 
 }
 
 p {
@@ -27,12 +28,14 @@ p {
   width: 300px;
   height: 300px;
   object-fit: cover;
-  margin: 0 auto;
-  display: block;
+  float: left;
+  margin: 0 20px 20px 20px;
   border-radius: 40%;
   border: 2px solid black;
-  overflow: hidden
+  overflow: hidden;
+  margin-left: 100px; 
 }
+
 
 ul.right-aligned {
   text-align: right;
@@ -46,12 +49,13 @@ ul.right-aligned {
   margin: 0 auto;
   border: 2px solid black;
   border-radius: 75px;
+  margin-left: 695px;
 }
 
 button {
   padding: 10px 20px;
   margin: 10px;
-  background-color: #a8c0ff;
+  background-color: #555;
   color: white;
   border: none;
   cursor: pointer;
@@ -61,12 +65,10 @@ button:hover {
   background-color: #3f2b96;
 }
 
-/* skill list */
-
 #skill-list {
   text-align: left;
   font-family: Times New Roman;
-  padding-left: 20px; 
+  padding-left: 30px; 
 }
 
 .interactive-skills li {
@@ -76,16 +78,19 @@ button:hover {
   transition: background-color 0.3s ease;
 }
 
-.interactive-skills li:hover {
-  background-color: #3f2b96;
-  color: white;
+.skills {
+  margin-left: 190px; 
 }
 
 
+.interactive-skills li:hover {
+  background-color: #333;
+  color: white;
+}
 
 .education {
   display: flex;
-  justify-content: center; /* Center horizontally */
+  justify-content: center;
   align-items: center;
   margin-top: 20px;
 }
@@ -114,28 +119,93 @@ button:hover {
   font-weight: bold;
 }
 
-
 /* Nav Bar */
-.navbar ul {
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #222;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar-left {
+  float: left;
+}
+
+.navbar-right {
+  float: right;
+}
+
+.navbar-right ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-
-.navbar li {
+.navbar-right li {
   float: left;
 }
 
-.navbar li a {
+.navbar-right li a {
   display: block;
-  color: black;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-.navbar li a:hover {
-  background-color: #3f2b96;
+.intro {
+  text-align: left;
+  max-width: 1000px;
+  margin: 0 auto;
 }
+
+.contact-me {
+  margin-top: 30px;
+}
+
+/* Experience */
+.experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.experience-box {
+  text-align: center;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  margin: 0 30px;
+  transition: transform 0.05s ease;
+}
+
+.experience-box:hover {
+  transform: scale(1.05);
+}
+
+.experience-box img {
+  width: 190px;
+  height: 100px;
+}
+
+.experience-box p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
