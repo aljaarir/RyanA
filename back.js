@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         event.preventDefault();
 
         // Redirect to your desired HTML link
-        window.location.href = 'projects.html';
+        window.location.href = 'project.html';
     });
 
     // Find the ABOUT link in the navbar
