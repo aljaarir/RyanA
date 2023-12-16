@@ -1,15 +1,54 @@
-document.getElementsByTagName("h1")[0].style.fontSize = "6vw";
+function redirectToCode(event) {
+    const projectBox = event.target.closest('.project-box');
+    if (projectBox) {
+        const codeUrl = projectBox.getAttribute('data-code-url');
+        if (codeUrl) {
+            window.location.href = codeUrl;
+        }
+    }
+}
 
-// JavaScript for the interactive box 
-document.getElementById("projects-button1").addEventListener("click", function() {
-  window.open("https://main--merry-bienenstitch-3ecef1.netlify.app/", "_blank");
+
+// Wait for the DOM to be ready
+  document.addEventListener('DOMContentLoaded', function () {
+    // Find the PROJECTS link in the navbar
+    var projectsLink = document.querySelector('.navbar-right li a[href="#projects"]');
+
+    // Add a click event listener to the PROJECTS link
+    projectsLink.addEventListener('click', function (event) {
+      // Prevent the default behavior of the link (preventing the browser from navigating to the href)
+      event.preventDefault();
+
+      // Redirect to your desired HTML link
+      window.location.href = 'projects.html';
+    });
+  });
+
+// Wait for the DOM to be ready
+  document.addEventListener('DOMContentLoaded', function () {
+    // Find the PROJECTS link in the navbar
+    var projectsLink = document.querySelector('.navbar-right li a[href="#about"]');
+
+    // Add a click event listener to the PROJECTS link
+    projectsLink.addEventListener('click', function (event) {
+      // Prevent the default behavior of the link (preventing the browser from navigating to the href)
+      event.preventDefault();
+
+      // Redirect to your desired HTML link
+      window.location.href = 'index.html';
+    });
+  });
+
+document.addEventListener('DOMContentLoaded', function () {
+  // Find the RESUME link in the navbar
+  var resumeLink = document.querySelector('.navbar-right li a[href="#resume"]');
+
+  // Add a click event listener to the RESUME link
+  resumeLink.addEventListener('click', function (event) {
+    // Prevent the default behavior of the link (preventing the browser from navigating to the href)
+    event.preventDefault();
+
+    // Replace 'your-resume-page.html' with the actual HTML page URL of your resume
+    window.location.href = 'https://drive.google.com/file/d/1my8AxZSocSSFcxLzeAPnwVOqRpUZshem/view?usp=sharing';
+  });
 });
-
-document.getElementById("projects-button2").addEventListener("click", function() {
-  window.open("https://replit.com/@pyro888/EmployeePay", "_blank");
-});
-
-document.getElementById("resume-button").addEventListener("click", function() {
-  window.open("https://drive.google.com/file/d/1my8AxZSocSSFcxLzeAPnwVOqRpUZshem/view?usp=sharing", "_blank");
-});
-
