@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
         event.preventDefault();
 
         // Replace 'your-resume-page.html' with the actual HTML page URL of your resume
-        window.location.href = 'https://drive.google.com/file/d/1my8AxZSocSSFcxLzeAPnwVOqRpUZshem/view?usp=sharing';
+        window.location.href = 'https://drive.google.com/file/d/1SKTFVfmAJFdI2nf7WtSPZU7-SuJDHLiT/view?usp=sharing';
     });
 
     // Find all project boxes and add click event listeners
